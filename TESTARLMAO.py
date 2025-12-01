@@ -357,59 +357,24 @@ def open_link():
 def update_prognos_textbox():
     prognos_text.config(state="normal")
     prognos_text.delete("1.0", tk.END)
-    # Headings
+
+    # ----- Prognos & VISA status -----
     prognos_text.insert(tk.END, "Prognos\n", "h1")
     for key, value in prognos_data.items():
         line = f"  • {key} – {('klar' if value=='Succeeded' else ('pågår' if value=='Running' else 'fel'))}\n"
         tag = "green" if value == "Succeeded" else ("yellow" if value == "Running" else "red")
         prognos_text.insert(tk.END, line, tag)
+
     prognos_text.insert(tk.END, "\nVISA\n", "h1")
     for key, value in visa_data.items():
         line = f"  • {key} – {('klar' if value=='Succeeded' else ('pågår' if value=='Running' else 'fel'))}\n"
         tag = "green" if value == "Succeeded" else ("yellow" if value == "Running" else "red")
         prognos_text.insert(tk.END, line, tag)
+
+
+
     prognos_text.config(state="disabled")
 
-
-
-    prognos_text.config(state="normal")
-    pipelineruns.clear()
-
-    execute()
-    print(pipelineruns)
-    prognos_text.delete("1.0", tk.END)
-
-    total_runs = 0
-    succeeded_runs = 0
-
-    prognos_text.insert(tk.END, "Azure Pipelines\n", "h1")
-
-    for pname, runs_list in pipelineruns.items():
-        sorted_runs = sorted(runs_list, key=sort_key, reverse=True)
-        prognos_text.insert(tk.END, f"{pname}\n", "h2")
-        for r in sorted_runs:
-            total_runs += 1
-            line = (
-                "  Start=" + r['start'] +
-                "  RunID=" + r['runId'] +
-                "  Status=" + r['status'] +
-                "  End=" + r['end'] + "\n"
-            )
-            status_lower = r['status'].lower()
-            if status_lower == "succeeded":
-                prognos_text.insert(tk.END, line, 'green')
-                succeeded_runs += 1
-            elif status_lower == 'inprogress':
-                prognos_text.insert(tk.END, line, 'yellow')
-            elif status_lower == 'failed':
-                prognos_text.insert(tk.END, line, 'red')
-            else:
-                prognos_text.insert(tk.END, line)
-
-        prognos_text.insert(tk.END, "\n")
-
-    azure_summary_var.set(f"{succeeded_runs}/{total_runs} runs succeeded.")
-    prognos_text.config(state="disabled")
 
 def checkETL():
     prognos_text.config(state="normal")
@@ -478,13 +443,6 @@ btn_link.grid(row=0, column=2, padx=(0, 10), pady=4)
 
 
 
-# Summary pill
-azure_summary_var = tk.StringVar(value="")
-summary_pill = tk.Label(toolbar, textvariable=azure_summary_var,
-                        bg=PALETTE["panel"], fg=PALETTE["success"],
-                        font=(FONT_FAMILY, 10, "bold"),
-                        bd=0, padx=10, pady=6, relief="flat", highlightthickness=1, highlightbackground=PALETTE["stroke"])
-summary_pill.grid(row=0, column=4, padx=(4, 0), pady=4)
 
 # ===== Content card =====
 content = tk.Frame(root, bg=PALETTE["panel"], highlightbackground=PALETTE["stroke"], highlightthickness=1)
