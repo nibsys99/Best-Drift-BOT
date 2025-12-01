@@ -13,11 +13,14 @@ import datetime
 import datetime
 import os
 
+import tkinter as tk
+from tkinter import messagebox
+import webbrowser
 
 
 MESSAGE = ""
-# ===== Brand palette & UI helpers =====
-# ===== Brand palette & UI helpers =====
+
+
 PALETTE = {
     "bg":        "#f7f9f5",
     "panel":     "#ffffff",
@@ -31,8 +34,8 @@ PALETTE = {
     "success":   "#15803d",
     "danger":    "#cc2e2e",
     "warning":   "#b58100",
-    # Use a valid 6-digit RGB for the shadow (no alpha in Tk)
-    "shadow":    "#dfe6dc",   # subtle light grey-green
+
+    "shadow":    "#dfe6dc",
 }
 
 FONT_FAMILY = "Segoe UI"
@@ -126,6 +129,7 @@ connection = None
 driftstörning = False
 senVA = False
 senVF = False
+
 prognos_html = "<p><b>Prognos</b><br>"
 for name, status in prognos_data.items():
     prognos_html += format_status_line(name, status)
@@ -328,11 +332,8 @@ print(prognos_html)
 print()
 
 # ====== UI (refreshed design) ======
-import tkinter as tk
-from tkinter import messagebox
-from tkinter import ttk
-import webbrowser
-from datetime import datetime
+
+
 
 def checkDrift():
     print("TESTAR DRIFTEN")
