@@ -1,0 +1,8 @@
+select esc.STUS_TXT, LOAD_ID, LOAD_SEQ_NBR, THREAD_ID, CONTR_STUS_CD, CONTR_NM, CONTR_ST_DTM, CONTR_END_DTM, datediff(minute, CONTR_ST_DTM, CONTR_END_DTM) as CONTR_DURATION, LOAD_DT, PKG_NM, REC_STAGE_CNT, REC_INSERT_CNT, REC_UPDT_CNT, REC_DEL_CNT, REC_ERROR_CNT, REC_IGNR_CNT, SRC_FILE_FULL_NM, ARCHV_FILE_FULL_NM, REC_INSERTION_DT from ETL_Config.dbo.ETL_Container_Log cl
+LEFT JOIN ETL_Config.dbo.ETL_Status_Codes esc on esc.STUS_CD = cl.CONTR_STUS_CD
+where 1 = 1
+and cast(cl.CONTR_ST_DTM as date) = dateadd(day, -0, cast(getdate() as date))
+
+
+
+order by cl.CONTR_ST_DTM desc
