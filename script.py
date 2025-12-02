@@ -80,11 +80,6 @@ def raise_card(frame: tk.Frame):
         pass
 
 
-# ====== Your originals (unchanged logic) ======
-#MÅSTE LOGGA IN KEYVAULT
-
-#os.environ['TCL_LIBRARY'] = 'C:/Users/nibras.khan/AppData/Local/Programs/Python/Python313/tcl/tcl8.6'
-#os.environ['TK_LIBRARY'] = 'C:/Users/nibras.khan/AppData/Local/Programs/Python/Python313/tcl/tk8.6'
 
 current_month_number = datetime.datetime.now().month  # 1 = January, 2 = February, ...
 current_hour = datetime.datetime.now().hour
