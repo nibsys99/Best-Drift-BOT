@@ -1,18 +1,7 @@
-import time
-import tkinter as tk
 import win32com.client as win32
-import requests
-
-import json
 import pyodbc
-
 import pandas as pd
 import datetime
-
-# Get current month name
-import datetime
-import os
-
 import tkinter as tk
 from tkinter import messagebox
 import webbrowser
