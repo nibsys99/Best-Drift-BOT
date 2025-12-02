@@ -63,12 +63,12 @@ def raise_card(frame: tk.Frame):
     frame.configure(bg=PALETTE["panel"], bd=0, highlightthickness=1, highlightbackground=PALETTE["stroke"])
     try:
         shadow = tk.Frame(frame.master, bg=PALETTE["shadow"])
-        # place a “shadow” slightly offset behind the frame
+        # shadow DESIGN
         shadow.place(in_=frame, x=3, y=3, relwidth=1, relheight=1)
-        shadow.lower(frame)  # ensure shadow sits behind
-        frame._shadow = shadow  # keep reference
+        shadow.lower(frame)
+        frame._shadow = shadow
 
-        # keep shadow in sync if the frame resizes
+
         def _sync(_evt=None):
             shadow.place_configure(in_=frame)
             shadow.lower(frame)
@@ -76,12 +76,12 @@ def raise_card(frame: tk.Frame):
         frame.bind("<Destroy>", lambda _e: shadow.destroy())
 
     except tk.TclError:
-        # If anything goes wrong, just render without a shadow
+
         pass
 
 
 
-current_month_number = datetime.datetime.now().month  # 1 = January, 2 = February, ...
+current_month_number = datetime.datetime.now().month
 current_hour = datetime.datetime.now().hour
 
 print(current_hour)
@@ -326,7 +326,7 @@ print()
 print(prognos_html)
 print()
 
-# ====== UI (refreshed design) ======
+
 
 
 
@@ -354,7 +354,7 @@ def update_prognos_textbox():
     prognos_text.config(state="normal")
     prognos_text.delete("1.0", tk.END)
 
-    # ----- Prognos & VISA status -----
+    # Prognos + VISA
     prognos_text.insert(tk.END, "Prognos\n", "h1")
     for key, value in prognos_data.items():
         line = f"  • {key} – {('klar' if value=='Succeeded' else ('pågår' if value=='Running' else 'fel'))}\n"
@@ -395,7 +395,7 @@ def checkETL():
 
     prognos_text.config(state="disabled")
 
-# ====== Build window ======
+# Tkinter
 root = tk.Tk()
 root.title("BEST Drift • Systembolaget")
 root.geometry("980x640")
@@ -406,7 +406,7 @@ root.configure(bg=PALETTE["bg"])
 root.grid_columnconfigure(0, weight=1)
 root.grid_rowconfigure(2, weight=1)
 
-# ===== Header bar =====
+# Header
 header = tk.Frame(root, bg=PALETTE["panel"], highlightbackground=PALETTE["stroke"], highlightthickness=1)
 header.grid(row=0, column=0, sticky="ew", padx=18, pady=(18, 8))
 raise_card(header)
@@ -416,11 +416,11 @@ subtitle = tk.Label(header, text="Beslutsstöd • nattkörningar & driftsstatus
 title.grid(row=0, column=0, sticky="w", padx=16, pady=(12, 0))
 subtitle.grid(row=1, column=0, sticky="w", padx=16, pady=(0, 12))
 
-# Accent stripe
+# header
 stripe = tk.Frame(header, bg=PALETTE["accent"], height=4)
 stripe.grid(row=2, column=0, sticky="ew", padx=0, pady=(0, 0))
 
-# ===== Toolbar =====
+#toolbar
 toolbar = tk.Frame(root, bg=PALETTE["bg"])
 toolbar.grid(row=1, column=0, sticky="ew", padx=18, pady=8)
 toolbar.grid_columnconfigure(10, weight=1)
@@ -440,7 +440,7 @@ btn_link.grid(row=0, column=2, padx=(0, 10), pady=4)
 
 
 
-# ===== Content card =====
+# content
 content = tk.Frame(root, bg=PALETTE["panel"], highlightbackground=PALETTE["stroke"], highlightthickness=1)
 content.grid(row=2, column=0, sticky="nsew", padx=18, pady=(8, 18))
 raise_card(content)
@@ -448,7 +448,8 @@ raise_card(content)
 content.grid_rowconfigure(0, weight=1)
 content.grid_columnconfigure(0, weight=1)
 
-# Monospace for log-like clarity? We'll use a clean UI font but slightly tighter
+# text
+
 prognos_text = tk.Text(content, height=10, wrap="word",
                        bg=PALETTE["panel"], fg=PALETTE["ink"],
                        insertbackground=PALETTE["primary"],  # caret color
@@ -462,14 +463,14 @@ scrollbar = tk.Scrollbar(content, command=prognos_text.yview)
 scrollbar.grid(row=0, column=1, sticky="ns")
 prognos_text.configure(yscrollcommand=scrollbar.set)
 
-# Text tags for color + hierarchy
+# text + color
 prognos_text.tag_config("green", foreground=PALETTE["success"])
 prognos_text.tag_config("red", foreground=PALETTE["danger"])
 prognos_text.tag_config("yellow", foreground=PALETTE["warning"])
 prognos_text.tag_config("h1", font=(FONT_FAMILY, 14, "bold"), foreground=PALETTE["primary"])
 prognos_text.tag_config("h2", font=(FONT_FAMILY, 12, "bold"), foreground=PALETTE["ink"])
 
-# Initial hint
+# THE hedaers
 prognos_text.insert(tk.END, "Välj en åtgärd ovan för att hämta status…", "h2")
 prognos_text.config(state="disabled")
 
