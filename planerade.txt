@@ -1,0 +1,3 @@
+2025-12-04; Uppdatera gateway: December; done
+2025-12-06; Stänga change: CH16736; open
+2025-12-26; HR-laddning 26:e; open
