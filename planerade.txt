@@ -1,3 +1,163 @@
-2025-12-04; Uppdatera gateway: December; done
-2025-12-06; Stänga change: CH16736; open
-2025-12-26; HR-laddning 26:e; open
+2025-12-05; Sebtan Ledig; open
+2025-12-08; Utskick av Driftstörningsformulär; open
+2025-12-11; Max är borta; open
+2025-12-16; LES IN; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/422/LES-IN-Monthly
+2025-12-18; Max födelsedag; open
+2025-12-19; Lägg change för PBI-gateway till på onsdagen (om det finns en ny version); open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/888/Skapa-change-f%C3%B6r-Power-BI-gateway-uppdatering
+2025-12-22; Philip Semester; open
+2025-12-24; Nils födelsedag; open
+2025-12-24; Jul; open
+2025-12-26; PÅMINNELSE: STOR HR laddning; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/478/HR-laddningen
+2025-12-29; Månadsvisa LES UT; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/424/LES-OUT-Monthly
+2025-12-31; Nyår; open
+2025-12-31; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-01-02; Johan semester; open
+2026-01-04; Månadsrapporter samt Artdiskar skrivs till sharepoint; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/321/Artdiskar-M%C3%A5nadsrapport
+2026-01-05; Ändringsstopp slut; open
+2026-01-06; Trettondagen; open
+2026-01-07; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-01-08; RELEASE DAG!!; open
+2026-01-08; Ewa-Li födelsedag; open
+2026-01-09; Stäng release change; open; https://systembolaget.service-now.com/now/nav/ui/classic/params/target/change_request.do%3Fsys_id%3D5f87a150932572901f3abd847aba1088%26sysparm_view%3Dundefined%26sysparm_record_target%3Dchange_request%26sysparm_record_row%3D11%26sysparm_record_rows%3D31%26sysparm_record_list%3Dactive%253Dtrue%255Eservice_offering.parent%253D018c81336f723900730058a86f3ee492%255EORDERBYstart_date%26sysparm_view%3Dundefined
+2026-01-11; Jonathan födelsedag; open
+2026-01-13; Deloitte Revision Q4 2025 (US: 139003); open; https://dev.azure.com/systembolagetab/FOB/_workitems/edit/139003
+2026-01-14; M3 NKI (US: 140302); open; https://dev.azure.com/systembolagetab/FOB/_workitems/edit/140302/
+2026-01-14; RELEASE DAG!!; open
+2026-01-16; LES IN; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/422/LES-IN-Monthly
+2026-01-16; Lägg change för PBI-gateway till på onsdagen (om det finns en ny version); open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/888/Skapa-change-f%C3%B6r-Power-BI-gateway-uppdatering
+2026-01-16; Stäng release change; open; https://systembolaget.service-now.com/now/nav/ui/classic/params/target/change_request.do%3Fsys_id%3Dc6a8ed14932572901f3abd847aba10e1%26sysparm_view%3Dundefined%26sysparm_record_target%3Dchange_request%26sysparm_record_row%3D12%26sysparm_record_rows%3D31%26sysparm_record_list%3Dactive%253Dtrue%255Eservice_offering.parent%253D018c81336f723900730058a86f3ee492%255EORDERBYstart_date%26sysparm_view%3Dundefined
+2026-01-20; Christoffer födelsedag; open
+2026-01-21; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-01-26; PÅMINNELSE: STOR HR laddning; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/478/HR-laddningen
+2026-01-28; RELEASE DAG!!; open
+2026-01-29; Månadsvisa LES UT; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/424/LES-OUT-Monthly
+2026-01-30; Stäng release change; open; https://systembolaget.service-now.com/now/nav/ui/classic/params/target/change_request.do%3Fsys_id%3D90592994932572901f3abd847aba10b6%26sysparm_view%3Dundefined%26sysparm_record_target%3Dchange_request%26sysparm_record_row%3D13%26sysparm_record_rows%3D31%26sysparm_record_list%3Dactive%253Dtrue%255Eservice_offering.parent%253D018c81336f723900730058a86f3ee492%255EORDERBYstart_date%26sysparm_view%3Dundefined
+2026-02-04; Månadsrapporter samt Artdiskar skrivs till sharepoint; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/321/Artdiskar-M%C3%A5nadsrapport
+2026-02-04; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-02-11; RELEASE DAG!!; open
+2026-02-13; Lägg change för PBI-gateway till på onsdagen (om det finns en ny version); open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/888/Skapa-change-f%C3%B6r-Power-BI-gateway-uppdatering
+2026-02-13; Stäng release change; open; https://systembolaget.service-now.com/change_request.do?sys_id=cee9edd4932572901f3abd847aba100a&amp
+2026-02-16; LES IN; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/422/LES-IN-Monthly
+2026-02-18; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-02-25; RELEASE DAG!!; open
+2026-02-26; PÅMINNELSE: STOR HR laddning; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/478/HR-laddningen
+2026-02-27; Stäng release change; open; https://systembolaget.service-now.com/now/nav/ui/classic/params/target/change_request.do%3Fsys_id%3D934a2d18932572901f3abd847aba10c9%26sysparm_view%3Dundefined%26sysparm_record_target%3Dchange_request%26sysparm_record_row%3D15%26sysparm_record_rows%3D31%26sysparm_record_list%3Dactive%253Dtrue%255Eservice_offering.parent%253D018c81336f723900730058a86f3ee492%255EORDERBYstart_date%26sysparm_view%3Dundefined
+2026-02-28; Månadsvisa LES UT; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/424/LES-OUT-Monthly
+2026-03-01; Sortimentsskifte; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/834/Driftrutin-vid-Sortimentsskifte
+2026-03-04; Månadsrapporter samt Artdiskar skrivs till sharepoint; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/321/Artdiskar-M%C3%A5nadsrapport
+2026-03-09; Utskick av Driftstörningsformulär; open
+2026-03-11; RELEASE DAG!!; open
+2026-03-12; Nils sista dag; open
+2026-03-13; Lägg change för PBI-gateway till på onsdagen (om det finns en ny version); open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/888/Skapa-change-f%C3%B6r-Power-BI-gateway-uppdatering
+2026-03-13; Stäng release change; open; https://systembolaget.service-now.com/now/nav/ui/classic/params/target/change_request.do%3Fsys_id%3D600ca55c932572901f3abd847aba10c0%26sysparm_view%3Dundefined%26sysparm_record_target%3Dchange_request%26sysparm_record_row%3D16%26sysparm_record_rows%3D31%26sysparm_record_list%3Dactive%253Dtrue%255Eservice_offering.parent%253D018c81336f723900730058a86f3ee492%255EORDERBYstart_date%26sysparm_view%3Dundefined
+2026-03-16; LES IN; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/422/LES-IN-Monthly
+2026-03-18; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-03-25; Julia fyller år; open
+2026-03-25; RELEASE DAG!!; open
+2026-03-26; PÅMINNELSE: STOR HR laddning; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/478/HR-laddningen
+2026-03-29; Månadsvisa LES UT; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/424/LES-OUT-Monthly
+2026-04-01; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-04-04; Månadsrapporter samt Artdiskar skrivs till sharepoint; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/321/Artdiskar-M%C3%A5nadsrapport
+2026-04-08; RELEASE DAG!!; open
+2026-04-10; Lägg change för PBI-gateway till på onsdagen (om det finns en ny version); open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/888/Skapa-change-f%C3%B6r-Power-BI-gateway-uppdatering
+2026-04-10; Stäng release change; open; https://systembolaget.service-now.com/now/nav/ui/classic/params/target/change_request.do%3Fsys_id%3Dd95de190936572901f3abd847aba1021%26sysparm_view%3Dundefined%26sysparm_record_target%3Dchange_request%26sysparm_record_row%3D18%26sysparm_record_rows%3D31%26sysparm_record_list%3Dactive%253Dtrue%255Eservice_offering.parent%253D018c81336f723900730058a86f3ee492%255EORDERBYstart_date%26sysparm_view%3Dundefined
+2026-04-15; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-04-16; LES IN; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/422/LES-IN-Monthly
+2026-04-22; RELEASE DAG!!; open
+2026-04-24; Stäng release change; open; https://systembolaget.service-now.com/now/nav/ui/classic/params/target/change_request.do%3Fsys_id%3D72ed2514936572901f3abd847aba1090%26sysparm_view%3Dundefined%26sysparm_record_target%3Dchange_request%26sysparm_record_row%3D19%26sysparm_record_rows%3D31%26sysparm_record_list%3Dactive%253Dtrue%255Eservice_offering.parent%253D018c81336f723900730058a86f3ee492%255EORDERBYstart_date%26sysparm_view%3Dundefined
+2026-04-26; PÅMINNELSE: STOR HR laddning; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/478/HR-laddningen
+2026-04-27; Philip födelsedag; open
+2026-04-27; Johan ledig 🍕🍝🍷; open
+2026-04-29; Månadsvisa LES UT; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/424/LES-OUT-Monthly
+2026-04-29; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-05-01; Johans födelsedag; open
+2026-05-04; Månadsrapporter samt Artdiskar skrivs till sharepoint; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/321/Artdiskar-M%C3%A5nadsrapport
+2026-05-06; RELEASE DAG!!; open
+2026-05-08; Stäng release change; open; https://systembolaget.service-now.com/now/nav/ui/classic/params/target/change_request.do%3Fsys_id%3D3840b59c936572901f3abd847aba103b%26sysparm_view%3Dundefined%26sysparm_record_target%3Dchange_request%26sysparm_record_row%3D20%26sysparm_record_rows%3D31%26sysparm_record_list%3Dactive%253Dtrue%255Eservice_offering.parent%253D018c81336f723900730058a86f3ee492%255EORDERBYstart_date%26sysparm_view%3Dundefined
+2026-05-08; Carl födelsedag; open
+2026-05-08; Lägg change för PBI-gateway till på onsdagen (om det finns en ny version); open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/888/Skapa-change-f%C3%B6r-Power-BI-gateway-uppdatering
+2026-05-13; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-05-16; LES IN; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/422/LES-IN-Monthly
+2026-05-20; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-05-20; RELEASE DAG!!; open
+2026-05-22; Stäng release change; open; https://systembolaget.service-now.com/change_request.do?sys_id=d2b079dc936572901f3abd847aba1092&amp
+2026-05-26; PÅMINNELSE: STOR HR laddning; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/478/HR-laddningen
+2026-05-27; RELEASE DAG!!; open
+2026-05-29; Månadsvisa LES UT; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/424/LES-OUT-Monthly
+2026-05-29; Stäng release change; open; https://systembolaget.service-now.com/change_request.do?sys_id=b7f1fdd093a572901f3abd847aba10ff&amp
+2026-06-01; Sortimentsskifte; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/834/Driftrutin-vid-Sortimentsskifte
+2026-06-04; Månadsrapporter samt Artdiskar skrivs till sharepoint; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/321/Artdiskar-M%C3%A5nadsrapport
+2026-06-05; Lägg change för PBI-gateway till på onsdagen (om det finns en ny version); open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/888/Skapa-change-f%C3%B6r-Power-BI-gateway-uppdatering
+2026-06-08; Utskick av Driftstörningsformulär; open
+2026-06-10; Sebastian födelsedag; open
+2026-06-11; Har vi fått filer med Befolkningsstatistik?; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/2675/Befolkningsstatistik-Postnummer-f%C3%B6r-inl%C3%A4sning-i-datalagret
+2026-06-13; Pernilla födelsedag; open
+2026-06-16; LES IN; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/422/LES-IN-Monthly
+2026-06-17; Joanna födelsedag; open
+2026-06-17; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-06-19; Jacob födelsedag; open
+2026-06-24; RELEASE DAG!!; open
+2026-06-26; Stäng release change; open; https://systembolaget.service-now.com/change_request.do?sys_id=b262391493a572901f3abd847aba107f&amp
+2026-06-26; PÅMINNELSE: STOR HR laddning; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/478/HR-laddningen
+2026-06-29; Månadsvisa LES UT; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/424/LES-OUT-Monthly
+2026-07-03; Lägg change för PBI-gateway till på onsdagen (om det finns en ny version); open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/888/Skapa-change-f%C3%B6r-Power-BI-gateway-uppdatering
+2026-07-04; Månadsrapporter samt Artdiskar skrivs till sharepoint; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/321/Artdiskar-M%C3%A5nadsrapport
+2026-07-16; LES IN; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/422/LES-IN-Monthly
+2026-07-26; PÅMINNELSE: STOR HR laddning; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/478/HR-laddningen
+2026-07-29; Månadsvisa LES UT; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/424/LES-OUT-Monthly
+2026-07-31; Lägg change för PBI-gateway till på onsdagen (om det finns en ny version); open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/888/Skapa-change-f%C3%B6r-Power-BI-gateway-uppdatering
+2026-08-04; Månadsrapporter samt Artdiskar skrivs till sharepoint; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/321/Artdiskar-M%C3%A5nadsrapport
+2026-08-05; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-08-12; RELEASE DAG!!; open
+2026-08-14; Stäng release change; open; https://systembolaget.service-now.com/change_request.do?sys_id=3104b15c93a572901f3abd847aba101d&amp
+2026-08-16; LES IN; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/422/LES-IN-Monthly
+2026-08-20; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-08-26; PÅMINNELSE: STOR HR laddning; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/478/HR-laddningen
+2026-08-27; RELEASE DAG!!; open
+2026-08-29; Månadsvisa LES UT; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/424/LES-OUT-Monthly
+2026-08-29; Stäng release change; open; https://systembolaget.service-now.com/change_request.do?sys_id=36e5319093e572901f3abd847aba1025&amp
+2026-09-01; Sortimentsskifte; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/834/Driftrutin-vid-Sortimentsskifte
+2026-09-02; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-09-04; Månadsrapporter samt Artdiskar skrivs till sharepoint; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/321/Artdiskar-M%C3%A5nadsrapport
+2026-09-09; RELEASE DAG!!; open
+2026-09-11; Stäng release change; open; https://systembolaget.service-now.com/change_request.do?sys_id=87b6751493e572901f3abd847aba103c&amp
+2026-09-14; Utskick av Driftstörningsformulär; open
+2026-09-16; LES IN; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/422/LES-IN-Monthly
+2026-09-16; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-09-23; RELEASE DAG!!; open
+2026-09-25; Lägg change för PBI-gateway till på onsdagen (om det finns en ny version); open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/888/Skapa-change-f%C3%B6r-Power-BI-gateway-uppdatering
+2026-09-25; Stäng release change; open; https://systembolaget.service-now.com/change_request.do?sys_id=d427755493e572901f3abd847aba1062&amp
+2026-09-26; PÅMINNELSE: STOR HR laddning; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/478/HR-laddningen
+2026-09-29; Månadsvisa LES UT; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/424/LES-OUT-Monthly
+2026-09-30; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-10-04; Månadsrapporter samt Artdiskar skrivs till sharepoint; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/321/Artdiskar-M%C3%A5nadsrapport
+2026-10-07; RELEASE DAG!!; open
+2026-10-09; Stäng release change; open; https://systembolaget.service-now.com/change_request.do?sys_id=c9e9d610c3617e540d58218dc00131de&amp
+2026-10-14; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-10-16; LES IN; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/422/LES-IN-Monthly
+2026-10-21; RELEASE DAG!!; open
+2026-10-23; Lägg change för PBI-gateway till på onsdagen (om det finns en ny version); open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/888/Skapa-change-f%C3%B6r-Power-BI-gateway-uppdatering
+2026-10-23; Stäng release change; open; https://systembolaget.service-now.com/change_request.do?sys_id=0aa46e90c3e17e540d58218dc00131fe&amp
+2026-10-26; PÅMINNELSE: STOR HR laddning; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/478/HR-laddningen
+2026-10-28; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-10-29; Månadsvisa LES UT; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/424/LES-OUT-Monthly
+2026-11-04; Månadsrapporter samt Artdiskar skrivs till sharepoint; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/321/Artdiskar-M%C3%A5nadsrapport
+2026-11-04; RELEASE DAG!!; open
+2026-11-06; Stäng release change; open; https://systembolaget.service-now.com/change_request.do?sys_id=11152214c3e17e540d58218dc00131ca&amp
+2026-11-16; LES IN; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/422/LES-IN-Monthly
+2026-11-18; Skapa releasebranch + releasemapp; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/289/Inf%C3%B6r-efter-release
+2026-11-18; RELEASE DAG!!; open
+2026-11-20; Lägg change för PBI-gateway till på onsdagen (om det finns en ny version); open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/888/Skapa-change-f%C3%B6r-Power-BI-gateway-uppdatering
+2026-11-25; RELEASE DAG!!; open
+2026-11-26; PÅMINNELSE: STOR HR laddning; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/478/HR-laddningen
+2026-11-27; Stäng release change; open; https://systembolaget.service-now.com/change_request.do?sys_id=ac16a294c3e17e540d58218dc0013173&amp
+2026-11-29; Månadsvisa LES UT; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/424/LES-OUT-Monthly
+2026-12-01; Sortimentsskifte; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/834/Driftrutin-vid-Sortimentsskifte
+2026-12-04; Månadsrapporter samt Artdiskar skrivs till sharepoint; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/321/Artdiskar-M%C3%A5nadsrapport
+2026-12-14; Utskick av Driftstörningsformulär; open
+2026-12-16; LES IN; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/422/LES-IN-Monthly
+2026-12-18; Max födelsedag; open
+2026-12-18; Lägg change för PBI-gateway till på onsdagen (om det finns en ny version); open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/888/Skapa-change-f%C3%B6r-Power-BI-gateway-uppdatering
+2026-12-24; Nils födelsedag; open
+2026-12-26; PÅMINNELSE: STOR HR laddning; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/478/HR-laddningen
+2026-12-29; Månadsvisa LES UT; open; https://dev.azure.com/systembolagetab/BEST/_wiki/wikis/BEST.wiki/424/LES-OUT-Monthly
