@@ -214,7 +214,7 @@ Beslutsstöd</i></p>
 def authentic():
     global connection, CURRENT_SERVER
     connection_string = (
-        "DRIVER={ODBC Driver 18 for SQL Server};"
+        "DRIVER={ODBC Driver 17 for SQL Server};"
         f"SERVER={CURRENT_SERVER};"
         "DATABASE=BEST_EDW;"
         "Encrypt=yes;"

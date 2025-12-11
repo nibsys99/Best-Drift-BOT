@@ -1,4 +1,4 @@
 requests
-pyodbc~=5.3.0
-pandas~=2.3.3
-tkcalendar~=1.6.1
+pyodbc
+pandas
+tkcalendar
